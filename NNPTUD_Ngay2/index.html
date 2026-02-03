@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Quản Lý Sản Phẩm - Đỗ Thành Đạt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BÁO CÁO BÀI TẬP JAVASCRIPT</h1>
+        <p style="text-align: center;">Sinh viên: <b>Đỗ Thành Đạt</b> | MSSV: 2280600571</p>
+
+        <div class="grid-container">
+            <div class="card wide">
+                <div class="card-header">Câu 2 & 8: Danh sách sản phẩm (Duyệt for...of)</div>
+                <table id="table-products">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Giá (VND)</th>
+                            <th>Số lượng</th>
+                            <th>Danh mục</th>
+                            <th>Trạng thái</th>
+                        </tr>
+                    </thead>
+                    <tbody id="q2-8-list"></tbody>
+                </table>
+            </div>
+
+            <div class="card">
+                <div class="card-header">Câu 3: Name & Price (Map)</div>
+                <ul id="q3-list" class="data-list"></ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">Câu 4: Sản phẩm còn hàng (Filter)</div>
+                <ul id="q4-list" class="data-list"></ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">Câu 7: Tổng giá trị kho</div>
+                <div id="q7-total" class="big-number"></div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">Câu 10: Tên SP sẵn sàng bán</div>
+                <ul id="q10-list" class="data-list"></ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">Câu 5 & 6: Kiểm tra điều kiện</div>
+                <div id="q5-6-status"></div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">Câu 9: Chi tiết thuộc tính (for...in)</div>
+                <div id="q9-details" class="code-box"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
